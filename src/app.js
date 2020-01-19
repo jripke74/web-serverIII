@@ -99,3 +99,12 @@ app.get('*', (req, res) => {
 app.listen(3000, () => {
   console.log('Server up on port 3000!')
 })
+
+// const server = http.createServer((req, res) => {
+//   res.statusCode = 200;
+//   res.setHeader('Content-Type', 'text/html');
+// });
+
+server.listen(port,() => {
+  console.log(`Server running at port `+port);
+});
