@@ -105,6 +105,6 @@ app.get('*', (req, res) => {
 //   res.setHeader('Content-Type', 'text/html');
 // });
 
-server.listen(port,() => {
+app.listen(port,() => {
   console.log(`Server running at port `+port);
 });
